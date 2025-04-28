@@ -1,0 +1,267 @@
+\documentclass[letterpaper,11pt]{article}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+\begin{center}
+    {\Huge \scshape Bârgăoanu Bogdan Alexandru} \\ \vspace{1pt}
+    %123 Street Name, Town, State 12345 \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ +40 745 507 155 ~ 
+    \href{mailto:x@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{bargaoanubogdan19@gmail.com}} ~ 
+    \href{https://linkedin.com/in//}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/bogdan-bargaoanu-598478211/}}  ~
+    
+    \href{https://github.com/}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/bogdanbargaoanu}}
+    \vspace{-8pt}
+\end{center}
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+   \resumeSubheading
+      {PIM Software Transilvania}{June 2023 -- Present}
+      {Software Developer}{}
+      \resumeItemListStart
+        \resumeItem{CRM Application Development Lead @ \href{https://pimsoftware.ro/activityapp/}{ActivityApp}.}
+        \resumeItem{Extended the application by enhancing features, optimizing performance, and integrating scalable components to support additional functionalities.}
+        \resumeItem{ Implemented a real-time data and notifications system for mobile and desktop platforms using WebSockets, enabling instant updates and seamless bidirectional communication within the applications.}
+        \resumeItem{ Developed a comprehensive security system to ensure that all application instances are seamlessly connected to the central API, enabling centralized control and oversight, which allows company owners to manage user accounts, enforce access permissions, and monitor activity, while ensuring secure communication.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+\vspace{-16pt}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Technical University of Cluj-Napoca}{Oct. 2021 -- Present}
+      {Bachelor of Systems Engineering: Applied Informatics}{Cluj-Napoca, Romania}
+  \resumeSubHeadingListEnd
+  
+%------RELEVANT COURSEWORK-------
+-- {\textbf{Relevant Coursework:}}
+ \resumeItemListStart
+        \resumeItem{
+ Computer Programming, Industrial Informatics, Data Structures, Databases, Computer Architecture, Web Technologies, Digital Security, Data Transmission, CAD, Linear Algebra, Numerical Calculus, Process Modelling, System Theory, Control Engineering, System Identification, Real Time Systems.}
+    \resumeItemListEnd
+    %\resumeSubHeadingListEnd
+\resumeSubHeadingListStart
+\resumeSubheading
+      {"Andrei Mureşanu" National College}{Sept. 2017 -- June 2021}
+      {Mathematics and Computer Science}{Bistrița, Romania}
+  \resumeSubHeadingListEnd  
+
+%-----------PROJECTS-----------
+\section{Projects}
+
+\begin{comment}
+    
+
+\vspace{-5pt}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{ Full-Stack E-commerce Website for PC Components} $|$ \emph{ASP .NET Core, React, Vite, Entity Framework}}{Ongoing}
+          \resumeItemListStart
+          \resumeItem{Leading a team in the development of a full-stack e-commerce platform specializing in PC components. Collaborating closely with team members to optimize website performance and ensure responsive design across various devices.}
+            \resumeItem{Spearheading the implementation of user-friendly interfaces to ensure seamless browsing and purchasing experiences.}
+            \resumeItem{Overseeing the integration of robust security measures to safeguard user data and transactions.}
+    \resumeItemListEnd
+    \resumeSubHeadingListEnd
+   \end{comment}
+
+\vspace{-5pt}
+    \resumeSubHeadingListStart
+        \resumeProjectHeading
+    {\textbf{\href{https://github.com/BogdanBargaoanu/MoneyStream}{MoneyStream}} $|$ \emph{React.js, Node.js, Express.js, MySQL, Bootstrap, Swagger,  Google Charts }}{March 2025}
+    \resumeItemListStart
+        \resumeItem{MoneyStream is a comprehensive platform designed to provide users with real-time exchange rates, manage exchange rate data, and visualize currency trends.}
+        \resumeItem{The architecture comprises a robust backend server, an administrative interface facilitating centralized management of geographically distributed data points, and a client-facing interface designed to enable end-users to dynamically query optimal or nearest currency exchange rates through computational implementation of the Haversine formula for geospatial distance calculations.}
+        \resumeItem{Designed and managed relational database structures with a pagination system, ensuring efficient data storage and retrieval.}
+        \resumeItem{SMTP protocol integration for automated email notification services, a JWT-based authentication mechanism to enforce secure token-based access control, and adherence to OAuth2 standards for robust authorization protocols.}
+        \resumeItem{Project featured in Internet of Things Student Challange 2025.}
+    \resumeItemListEnd
+ \vspace{-15pt}
+
+    
+        \resumeProjectHeading
+    {\textbf{\href{https://github.com/BogdanBargaoanu/ExpressParcel}{ExpressParcel}} $|$ \emph{React.js, Java, Spring Boot, MySQL, Bootstrap}}{December 2024}
+    \resumeItemListStart
+        \resumeItem{The backend system is built on a Spring Boot API utilizing Controller-Service-Repository architecture, supporting CRUD operations for courier and package management, integrating SMTP for automated delivery confirmation emails, and employing MySQL for persistent data storage.}
+        \resumeItem{Features an administrative application that facilitates role-based authentication, enables comprehensive management of couriers and packages through lifecycle controls, orchestrates delivery workflows, and allows dynamic reassignment of managers to couriers.}
+        \resumeItem{The client application provides end-users with package tracking via AWB queries, analytical dashboards for monitoring manager performance metrics, and tools to identify available couriers with no pending deliveries, including direct contact functionality.}
+    \resumeItemListEnd 
+    
+ \newpage
+    \resumeProjectHeading
+    {\textbf{\href{https://github.com/BogdanBargaoanu/WiFi-Gate}{WiFi Gate}} $|$ \emph{C++, JavaScript, HTML, CSS}}{December 2024}
+    \resumeItemListStart
+        \resumeItem{Lightweight, ESP8266 or ESP32-based server application for wireless garage door control. It provides a web interface for opening and closing your garage door, with added safety features to detect obstructions using an infrared sensor.}
+    \resumeItemListEnd
+ 
+    \vspace{-15pt}
+    \resumeProjectHeading
+    {\textbf{\href{https://github.com/BogdanBargaoanu/CashflowApp}{CashflowApp}} $|$ \emph{Vue.js, Node.js, Express.js, MySQL, Bootstrap, Swagger, Google Charts}}{July 2024}
+    \resumeItemListStart
+        \resumeItem{A comprehensive, full stack cashflow management application developed using Vue.js on the front-end, Node.js with a MySQL database on the backend, and an Express.js API to facilitate seamless data exchange and visualization via Google Charts.}
+        \resumeItem{Features an in-depth documentation for the app implementation, as an introduction to Vue, submitted to the Industrial Informatics Laboratory at the Technical University of Cluj-Napoca, Faculty of Automation and Computer Science.}
+    \resumeItemListEnd
+
+
+\begin{comment}
+
+
+
+    \vspace{-5pt}
+\resumeProjectHeading
+{\textbf{Tic Tac Toe with Minimax Algorithm} $|$ \emph{Python and Tkinter}}{March 2024}
+\resumeItemListStart
+\resumeItem{Implemented a Tic Tac Toe game with an AI opponent powered by the Minimax algorithm, showcasing expertise in artificial intelligence and algorithmic decision-making.}
+\resumeItem{Designed and developed a graphical user interface using the Tkinter library, providing intuitive interaction and visual feedback for enhanced user experience.}
+\resumeItemListEnd
+ \end{comment}  
+    \vspace{-15pt}
+        \resumeProjectHeading
+          {\textbf{\href{https://github.com/BogdanBargaoanu/JavaScriptSelfDrivingCar}{Self-driving car with JS}} $|$ \emph{JavaScript, HTML, CSS}}{February 2024}
+          \resumeItemListStart
+            \resumeItem{This project implements a simulated self-driving car in JavaScript that utilizes a neural network for decision-making.}
+            \resumeItem{The web application offers an interactive interface to visualize real-time neural network parameter adjustments for autonomous navigation, with the ability to save the best model for optimal configurations.}
+            \resumeItem{Designed to be a learning experience in both neural networks and self-driving car concepts.}
+    \resumeItemListEnd 
+ 
+\vspace{-15pt}
+      \resumeProjectHeading
+          {\textbf{\href{https://github.com/BogdanBargaoanu/WriteDetect}{WriteDetect}} $|$ \emph{\mbox{C{\#}}}}{December 2023}
+          \resumeItemListStart
+            \resumeItem{An implementation for classifying the MNIST dataset using \mbox{C{\#}} with a neural network for the goal of identifying hand writing.}
+            \resumeItem{The project delivers a fully self-contained implementation of a feed-forward neural network featuring configurable layer sizes, sigmoid activation functions and custom matrix utilities, weight initialization, forward propagation and back-propagation training routines with no external libraries.}
+          \resumeItemListEnd 
+ \vspace{-5pt}
+
+
+
+
+%-----------CERTIFICATIONS---------------
+\section{Certifications}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{\href{https://www.freecodecamp.org/certification/BogdanBargaoanu/javascript-algorithms-and-data-structures-v8}{JavaScript Algorithms and Data Structures (Legacy and Beta)}} $|$ \emph{freeCodeCamp}}{June 2024}
+      \resumeProjectHeading
+          {\textbf{\href{https://www.freecodecamp.org/certification/BogdanBargaoanu/responsive-web-design}{Responsive Web Design}} $|$ \emph{freeCodeCamp}}{March 2024}
+      \resumeProjectHeading
+          {\textbf{\href{https://www.freecodecamp.org/certification/BogdanBargaoanu/foundational-c-sharp-with-microsoft}{Foundational \mbox{C{\#}}}} $|$ \emph{Microsoft - Score: 70/80}}{February 2024}
+      \resumeProjectHeading
+          {\textbf{\href{https://www.coursera.org/account/accomplishments/verify/QZM6LUS5NGQK}{Introduction to Git and GitHub}} $|$ \emph{Google}}{November 2023}
+      \resumeProjectHeading
+          {\textbf{C1 Advanced} $|$ \emph{Cambridge Assessment English - Score: 191}}{March 2021}
+    \resumeSubHeadingListEnd
+\section{Volunteering}
+    \resumeSubHeadingListStart
+        \resumeSubheading{Internet of Things Student Challange }{March 2025}{Competitor - MoneyStream }{Cluj-Napoca, Romania}
+        \vspace{2pt}
+            \resumeItemListStart
+                \resumeItem{Participated in the Internet of Things Student Challenge program with an innovative IoT project, developed under the guidance of academic experts, ICT mentors, and industry specialists in Romania.}
+                \resumeItem{Developed public speaking and pitching skills, while also cultivating goal-oriented thinking through the creation of an application based on a business plan with the potential for real-world implementation.}
+            \resumeItemListEnd
+    \resumeSubHeadingListEnd
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: \mbox{C{\#}}, JavaScript, SQL, Java, C++, C/Embedded C, Python, HTML, CSS, MATLAB/Simulink, Ladder Logic.} \\
+     \textbf{Frameworks}{: .NET, React.js, Node.js, DevExpress, Vue.js, Express.js, Bootstrap, Tailwind CSS, Spring, Tensorflow, Keras, Flask.} \\
+     \textbf{Tools}{: Visual Studio, Visual Studio Code, Git, SQL Server Management Studio, MySQL Workbench, Postman, PyCharm IDE, IntelliJ IDEA, MongoDB Atlas, Arduino IDE, Siemens TIA Portal.} }}
+ \end{itemize}
+ \vspace{-16pt}
+
+\end{document}
